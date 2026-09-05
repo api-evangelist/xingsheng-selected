@@ -1,0 +1,134 @@
+generated: '2026-09-04'
+method: probed
+source: >-
+  Live anonymous GET probes of the named /.well-known/ path list against every host
+  Xingsheng Selected is known to control (xsyxsc.com and its subdomains, ICP filing
+  湘ICP备18019433号-1).
+note: >-
+  NO DOCUMENT WAS FOUND. Every 200 recorded below is a single-page-application catch-all
+  shell, not a well-known document: xsyxsc.com returns the same 102,844-byte Vue portal
+  HTML for every path, and gys.xsyxsc.com (the supplier system, an umi/ant-design-pro app)
+  returns its own ~5KB app shell for every path. mall.xsyxsc.com, the application backend,
+  answers honestly with a Spring Boot JSON 404 envelope on every path. No WellKnown,
+  SecurityTxt, AgentCard or APICatalog pointer is emitted from this probe, because the
+  provider serves none of these documents. status 0 = the probe timed out (the origin is in
+  China and intermittently drops the TLS handshake from this vantage point); on those hosts
+  every path that did answer returned the catch-all shell.
+hosts:
+- host: xsyxsc.com
+  role: corporate website (Vue SPA)
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 0
+    result: probe-timeout
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/api-catalog
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/agent.json
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 200
+    result: spa-shell
+    file: null
+- host: gys.xsyxsc.com
+  role: supplier system (兴盛优选供应商系统) — login-walled umi application
+  documents:
+  - path: /.well-known/security.txt
+    status: 0
+    result: probe-timeout
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/api-catalog
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/agent.json
+    status: 200
+    result: spa-shell
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 0
+    result: probe-timeout
+    file: null
+- host: mall.xsyxsc.com
+  role: application backend (Spring Boot JSON host)
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/oauth-protected-resource
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    result: not-found
+    file: null
+  - path: /.well-known/aauth-resource.json
+    status: 0
+    result: probe-timeout
+    file: null

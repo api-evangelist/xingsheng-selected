@@ -1,0 +1,1127 @@
+generated: '2026-09-04'
+method: searched
+source: https://registry.npmjs.org/-/v1/search?text=%40xsyx (npm registry search, unauthenticated)
+note: >-
+  Xingsheng Selected publishes no API client SDK, because it publishes no API. What the
+  registry search DID find is a first-party npm scope, @xsyx, carrying 121 public packages
+  from the company's own front-end platform team: the "hanzo" (汉卓) H5 / WeChat
+  mini-program component library used by the consumer group-buying app, a "jarvis" (贾维斯)
+  JSON-Schema low-code render engine, a web error-reporting SDK, an H5-to-Flutter bridge,
+  auth and routing helpers, and CLI scaffolding. These are INTERNAL platform libraries the
+  team published to the public registry — they are not clients for a public Xingsheng API,
+  so no `SDKs` pointer is emitted from this file and sdk_count must not be credited from it.
+ownership_evidence: >-
+  The scope matches the company's own CDN domain (front-prod-cdn.xsyx.xyz, front-xps-cdn.xsyx.xyz,
+  both referenced by https://xsyxsc.com/); package repository URLs point at
+  https://gitlab.frxs.cn/ (frxs = 芙蓉兴盛 / Furong Xingsheng, the convenience-store group
+  Xingsheng Youxuan grew out of); and the package descriptions name the company's exact
+  business objects (门店 stores, 预售 pre-sale, 购物车 cart, 兴盛优视 video, 优聘 recruiting).
+  All 121 packages carry a single npm maintainer, `chenkuan`.
+currency: >-
+  ABANDONED IN PUBLIC. The newest package in the scope was published 2021-03-11; 120 of 121
+  were last published in 2019 or 2020. The scope has received no release in over five years
+  even though the consumer app and supplier system are still running, so nothing here should
+  be treated as a supported, current distribution.
+registries:
+- registry: npm
+  scope: '@xsyx'
+  package_count: 121
+  newest_published: '2021-03-11'
+  oldest_published: '2019-01-26'
+  maintainers:
+  - chenkuan
+families:
+- family: "hanzo — H5/mini-program UI component library"
+  package_count: 89
+- family: "platform tooling / SDKs"
+  package_count: 23
+- family: "jarvis (贾维斯) — JSON-Schema low-code render/design engine"
+  package_count: 5
+- family: "business modules"
+  package_count: 4
+packages:
+- name: "@xsyx/easy-chat-box"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.45"
+  published: "2021-03-11"
+  family: "platform tooling / SDKs"
+  description: "## 构建预览 npm run build:app"
+  url: "https://www.npmjs.com/package/@xsyx/easy-chat-box"
+- name: "@xsyx/hanzo-cli"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.4.3"
+  published: "2020-09-12"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "组件脚手架"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-cli"
+- name: "@xsyx/easy-api-h5"
+  registry: npm
+  official: true
+  api_client: false
+  version: "4.0.0-beta.15"
+  published: "2020-09-11"
+  family: "platform tooling / SDKs"
+  description: "完整规范请参考 https://www.yuque.com/xsued/book/lz3qo4"
+  url: "https://www.npmjs.com/package/@xsyx/easy-api-h5"
+- name: "@xsyx/zed-base"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.0.1-beta.4"
+  published: "2020-09-10"
+  family: "platform tooling / SDKs"
+  description: "基础组件库"
+  url: "https://www.npmjs.com/package/@xsyx/zed-base"
+- name: "@xsyx/hanzo-h5"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.3.9"
+  published: "2020-09-02"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "#### 介绍"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-h5"
+- name: "@xsyx/xs-kylin-auth"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.5-beta.2"
+  published: "2020-08-05"
+  family: "platform tooling / SDKs"
+  description: "xsyx kylin auth class"
+  url: "https://www.npmjs.com/package/@xsyx/xs-kylin-auth"
+- name: "@xsyx/hanzo-element"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.2-beta.3"
+  published: "2020-08-05"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "基于element ui 二次开发常用组件库"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-element"
+- name: "@xsyx/jarvis-setters"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.0"
+  published: "2020-07-31"
+  family: "jarvis (贾维斯) — JSON-Schema low-code render/design engine"
+  description: "贾维斯Setters"
+  url: "https://www.npmjs.com/package/@xsyx/jarvis-setters"
+- name: "@xsyx/design-engine"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.1"
+  published: "2020-07-31"
+  family: "jarvis (贾维斯) — JSON-Schema low-code render/design engine"
+  url: "https://www.npmjs.com/package/@xsyx/design-engine"
+- name: "@xsyx/jarvis-components-light-page"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.23"
+  published: "2020-07-24"
+  family: "jarvis (贾维斯) — JSON-Schema low-code render/design engine"
+  description: "贾维斯轻页面组件库"
+  url: "https://www.npmjs.com/package/@xsyx/jarvis-components-light-page"
+- name: "@xsyx/hanzo-search"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.3.2"
+  published: "2020-07-23"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "### changelog"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-search"
+- name: "@xsyx/hanzo-product-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.4.4"
+  published: "2020-07-23"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "商品卡片"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-product-card"
+- name: "@xsyx/hanzo-pre-sell-tip"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.6"
+  published: "2020-07-23"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "商品预售倒计时"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-pre-sell-tip"
+- name: "@xsyx/hanzo-menu-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.4.3"
+  published: "2020-07-23"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "### changelog"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-menu-card"
+- name: "@xsyx/render-engine"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.8"
+  published: "2020-07-23"
+  family: "jarvis (贾维斯) — JSON-Schema low-code render/design engine"
+  description: "<a name=\"Qtq8i\"></a> # 渲染引擎（RENDER-ENGINE）用途 贾维斯渲染引擎负责将 JSON-SCHEMA 渲染成静态页面。"
+  url: "https://www.npmjs.com/package/@xsyx/render-engine"
+- name: "@xsyx/hanzo-city-picker"
+  registry: npm
+  official: true
+  api_client: false
+  version: "2.0.1"
+  published: "2020-07-21"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "省市县组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-city-picker"
+- name: "@xsyx/hanzo-menu"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.4.0"
+  published: "2020-07-11"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "菜单组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-menu"
+- name: "@xsyx/cute-bridge-sdk"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.3"
+  published: "2020-07-09"
+  family: "platform tooling / SDKs"
+  description: "H5页面与Flutter or 小程序桥接SDK"
+  url: "https://www.npmjs.com/package/@xsyx/cute-bridge-sdk"
+- name: "@xsyx/hanzo-goods-action-icon"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.4"
+  published: "2020-07-08"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "商品导航图标组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-goods-action-icon"
+- name: "@xsyx/hanzo-shop-cart-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.3.6"
+  published: "2020-07-07"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "购物车卡片"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-shop-cart-card"
+- name: "@xsyx/hanzo-list-loading"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.0"
+  published: "2020-07-07"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "数据列表--加载中组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-list-loading"
+- name: "@xsyx/hanzo-login-guide"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.4"
+  published: "2020-07-02"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "登录引导组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-login-guide"
+- name: "@xsyx/hanzo-hottel"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.8"
+  published: "2020-07-02"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "热线电话"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-hottel"
+- name: "@xsyx/hanzo-nav-bar"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.6.1"
+  published: "2020-06-30"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "自定义底部导航组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-nav-bar"
+- name: "@xsyx/jarvis-components"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.5"
+  published: "2020-06-27"
+  family: "jarvis (贾维斯) — JSON-Schema low-code render/design engine"
+  description: "贾维斯可拖拽组件库"
+  url: "https://www.npmjs.com/package/@xsyx/jarvis-components"
+- name: "@xsyx/hanzo-video-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.3.7"
+  published: "2020-06-27"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "兴盛优视视频组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-video-card"
+- name: "@xsyx/hanzo-switchstoreconfirmbox"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.0"
+  published: "2020-06-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "门店切换确认组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-switchstoreconfirmbox"
+- name: "@xsyx/hanzo-opensetting"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.0"
+  published: "2020-06-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "需要获取当前位置，无定位权限时弹出的前往设置页面的弹框"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-opensetting"
+- name: "@xsyx/hanzo-newuser-product-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.2"
+  published: "2020-06-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "新客专享-商品卡片"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-newuser-product-card"
+- name: "@xsyx/hanzo-product-err"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.4"
+  published: "2020-06-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "- 修改样式：更新banner图"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-product-err"
+- name: "@xsyx/hanzo-share"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.0"
+  published: "2020-06-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "分享组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-share"
+- name: "@xsyx/hanzo-left-slide"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.2"
+  published: "2020-06-23"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "* 修改左滑灵敏度"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-left-slide"
+- name: "@xsyx/xapp"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.0"
+  published: "2020-06-23"
+  family: "platform tooling / SDKs"
+  description: "* 完善1.0.0版本"
+  url: "https://www.npmjs.com/package/@xsyx/xapp"
+- name: "@xsyx/hanzo-index-bottom"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.3"
+  published: "2020-06-23"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "首页底部图片位"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-index-bottom"
+- name: "@xsyx/hanzo-order-list-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.1"
+  published: "2020-06-15"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "订单列表卡片"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-order-list-card"
+- name: "@xsyx/hanzo-order-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.2.0"
+  published: "2020-06-15"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "订单卡片"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-order-card"
+- name: "@xsyx/hanzo-counter"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.2"
+  published: "2020-06-12"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "计数器"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-counter"
+- name: "@xsyx/duoli"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.3"
+  published: "2020-06-12"
+  family: "platform tooling / SDKs"
+  description: "vue中后台cli工具"
+  url: "https://www.npmjs.com/package/@xsyx/duoli"
+- name: "@xsyx/hanzo-search2"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.2"
+  published: "2020-06-11"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "- 增加皮肤"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-search2"
+- name: "@xsyx/hanzo-banner"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.1"
+  published: "2020-06-06"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "banner 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-banner"
+- name: "@xsyx/hanzo-page-error"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.0"
+  published: "2020-06-02"
+  family: "hanzo — H5/mini-program UI component library"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-page-error"
+- name: "@xsyx/hanzo-slide-delete"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.0"
+  published: "2020-06-02"
+  family: "hanzo — H5/mini-program UI component library"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-slide-delete"
+- name: "@xsyx/x-monitor-web"
+  registry: npm
+  official: true
+  api_client: false
+  version: "2.0.1"
+  published: "2020-05-22"
+  family: "platform tooling / SDKs"
+  description: "web错误上报SDK"
+  url: "https://www.npmjs.com/package/@xsyx/x-monitor-web"
+- name: "@xsyx/hanzo-non-business-hours"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.3"
+  published: "2020-05-11"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "非营业时间组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-non-business-hours"
+- name: "@xsyx/hanzo-getphonenumber"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.1"
+  published: "2020-05-11"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "获取微信绑定手机号登录组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-getphonenumber"
+- name: "@xsyx/hanzo-action-list"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.1.1"
+  published: "2020-04-24"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "action-list 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-action-list"
+- name: "@xsyx/hanzo-zhibo"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.12"
+  published: "2020-04-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "图文直播 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-zhibo"
+- name: "@xsyx/hanzo-join-post"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.9"
+  published: "2020-04-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "join-post 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-join-post"
+- name: "@xsyx/hanzo-grade"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.7"
+  published: "2020-04-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "grade 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-grade"
+- name: "@xsyx/hanzo-camera-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.7"
+  published: "2020-04-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "camera-card 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-camera-card"
+- name: "@xsyx/hanzo-navigation"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.7"
+  published: "2020-04-16"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "头部导航组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-navigation"
+- name: "@xsyx/hanzo-shop-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.7"
+  published: "2020-04-15"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "门店信息卡片"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-shop-card"
+- name: "@xsyx/hanzo-goods-action-button"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.4"
+  published: "2020-04-15"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "商品导航按钮组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-goods-action-button"
+- name: "@xsyx/hanzo-goods-action"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.3"
+  published: "2020-04-15"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "商品导航组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-goods-action"
+- name: "@xsyx/hanzo-cover-message"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.5"
+  published: "2020-04-15"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "覆盖信息组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-cover-message"
+- name: "@xsyx/hanzo-store-nav-bar"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.5"
+  published: "2020-04-09"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "门店 - 自定义底部导航组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-store-nav-bar"
+- name: "@xsyx/hanzo-settlement-bar"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.0"
+  published: "2020-04-08"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "结算订单栏"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-settlement-bar"
+- name: "@xsyx/hanzo-setoutbusinessdate"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.4"
+  published: "2020-04-07"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "setOutBusinessDate 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-setoutbusinessdate"
+- name: "@xsyx/hanzo-job-name-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.2"
+  published: "2020-04-07"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "job-name-card 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-job-name-card"
+- name: "@xsyx/hanzo-job-head"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.4"
+  published: "2020-04-07"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "优聘-首页头部"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-job-head"
+- name: "@xsyx/hanzo-job-post"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-04-03"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "优聘-职位介绍"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-job-post"
+- name: "@xsyx/hanzo-empty"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.7"
+  published: "2020-04-01"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "列表无商品、无订单提示语"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-empty"
+- name: "@xsyx/hanzo-job-step"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.0"
+  published: "2020-03-30"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "优聘-步骤条"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-job-step"
+- name: "@xsyx/hanzo-job-card"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-03-30"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "优聘-职位卡片"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-job-card"
+- name: "@xsyx/hanzo-dialog"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.2"
+  published: "2020-03-28"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "dialog 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-dialog"
+- name: "@xsyx/hanzo-share-productposter"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.2.0"
+  published: "2020-03-27"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "小程序商品详情页小程序图标分享海报"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-share-productposter"
+- name: "@xsyx/npm-x"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.15"
+  published: "2020-03-24"
+  family: "platform tooling / SDKs"
+  description: "1.全局安装npm-x 命令"
+  url: "https://www.npmjs.com/package/@xsyx/npm-x"
+- name: "@xsyx/hanzo-preview-product"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-03-21"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "明日预售商品组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-preview-product"
+- name: "@xsyx/hanzo-swiper-dot"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-03-20"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "> swiper组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-swiper-dot"
+- name: "@xsyx/hanzo-button"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.3"
+  published: "2020-03-13"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "按钮组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-button"
+- name: "@xsyx/hanzo-icon"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.2"
+  published: "2020-03-13"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "图标组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-icon"
+- name: "@xsyx/hanzo-swipe-cell"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.1"
+  published: "2020-03-13"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "滑动组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-swipe-cell"
+- name: "@xsyx/hanzo-step-smiple"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.1"
+  published: "2020-02-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "step-smiple 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-step-smiple"
+- name: "@xsyx/hanzo-camera-photo"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.2"
+  published: "2020-02-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "camera-photo 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-camera-photo"
+- name: "@xsyx/hanzo-video-modal"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.4"
+  published: "2020-02-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "video-modal 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-video-modal"
+- name: "@xsyx/hanzo-ogin-guide"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.0"
+  published: "2020-02-18"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "登录引导组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-ogin-guide"
+- name: "@xsyx/hanzo-biz-alert"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-02-15"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "biz-alert 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-biz-alert"
+- name: "@xsyx/hanzo-outbusiness-confirm"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-02-13"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "outbusiness-confirm 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-outbusiness-confirm"
+- name: "@xsyx/hanzo-outbusiness-alert"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-02-13"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "outbusiness-alert 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-outbusiness-alert"
+- name: "@xsyx/staff-select-field"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2020-01-11"
+  family: "platform tooling / SDKs"
+  description: "> 通过如下方式可以修改数据源 ```javascript  window.hanzo.staffUrl = 'https://portal.xsyxsc.com/api/qs/hintContainsUser/${ke"
+  url: "https://www.npmjs.com/package/@xsyx/staff-select-field"
+- name: "@xsyx/hanzo-canvasposter"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.4"
+  published: "2020-01-04"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "生成海报组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-canvasposter"
+- name: "@xsyx/hanzo-ball-win"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.0"
+  published: "2019-12-18"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "首页弹出层 营销活动"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-ball-win"
+- name: "@xsyx/hanzo-shop-cart-count"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.4"
+  published: "2019-12-17"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "购物车 加数器"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-shop-cart-count"
+- name: "@xsyx/hanzo-header"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2019-12-16"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "头部组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-header"
+- name: "@xsyx/hanzo-step2"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2019-12-11"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "进度组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-step2"
+- name: "@xsyx/hanzo-step"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.1"
+  published: "2019-12-11"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "步骤组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-step"
+- name: "@xsyx/hanzo-verify-code"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.0"
+  published: "2019-12-11"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "划块验证码"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-verify-code"
+- name: "@xsyx/hanzo-new-order-tips"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.2"
+  published: "2019-11-23"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "新订单弹幕提示"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-new-order-tips"
+- name: "@xsyx/hanzo-brand-box"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.3"
+  published: "2019-11-14"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "面板盒子"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-brand-box"
+- name: "@xsyx/m-sample"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.2"
+  published: "2019-10-23"
+  family: "business modules"
+  description: "### 业务模块通用要求 1. 名称规范： m-业务名-功能名 > 如： m-basic-setting, m-basic-userlist"
+  url: "https://www.npmjs.com/package/@xsyx/m-sample"
+- name: "@xsyx/common-portal"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.30"
+  published: "2019-10-23"
+  family: "platform tooling / SDKs"
+  description: "```javascript import commonPortal from '@xsyx/common-portal'"
+  url: "https://www.npmjs.com/package/@xsyx/common-portal"
+- name: "@xsyx/module-basic-setting"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.20"
+  published: "2019-10-22"
+  family: "business modules"
+  description: "### 业务模块通用要求 1. 名称规范： m-业务名-功能名 > 如： m-basic-setting, m-basic-userlist"
+  url: "https://www.npmjs.com/package/@xsyx/module-basic-setting"
+- name: "@xsyx/hanzo-video"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.7"
+  published: "2019-10-19"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "视频播放 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-video"
+- name: "@xsyx/m-platform-cgi-out"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.4"
+  published: "2019-10-09"
+  family: "business modules"
+  description: "### 业务模块通用要求 1. 名称规范： m-业务名-功能名 > 如： m-basic-setting, m-basic-userlist"
+  url: "https://www.npmjs.com/package/@xsyx/m-platform-cgi-out"
+- name: "@xsyx/hanzo-share-preview"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.1"
+  published: "2019-10-04"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "分享确认框组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-share-preview"
+- name: "@xsyx/module_basic_setting"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.2"
+  published: "2019-09-20"
+  family: "business modules"
+  description: "## Project setup ``` npm install ```"
+  url: "https://www.npmjs.com/package/@xsyx/module_basic_setting"
+- name: "@xsyx/easy-api-mp"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-09-06"
+  family: "platform tooling / SDKs"
+  description: "1. 在 modules 中配置接口基本信息      - url 接口地址      - method 请求方式      - 更多配置      ```javascript          export defau"
+  url: "https://www.npmjs.com/package/@xsyx/easy-api-mp"
+- name: "@xsyx/hanzo-head"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.3"
+  published: "2019-08-12"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "头部组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-head"
+- name: "@xsyx/nav-bar"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.7"
+  published: "2019-07-31"
+  family: "platform tooling / SDKs"
+  description: "nav-bar"
+  url: "https://www.npmjs.com/package/@xsyx/nav-bar"
+- name: "@xsyx/icons"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.6"
+  published: "2019-07-31"
+  family: "platform tooling / SDKs"
+  description: "icons"
+  url: "https://www.npmjs.com/package/@xsyx/icons"
+- name: "@xsyx/header"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.8"
+  published: "2019-07-31"
+  family: "platform tooling / SDKs"
+  description: "header"
+  url: "https://www.npmjs.com/package/@xsyx/header"
+- name: "@xsyx/component-b"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.2"
+  published: "2019-07-31"
+  family: "platform tooling / SDKs"
+  description: "component-b"
+  url: "https://www.npmjs.com/package/@xsyx/component-b"
+- name: "@xsyx/component-a"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.4"
+  published: "2019-07-31"
+  family: "platform tooling / SDKs"
+  description: "component-a"
+  url: "https://www.npmjs.com/package/@xsyx/component-a"
+- name: "@xsyx/easy-route"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.3"
+  published: "2019-07-30"
+  family: "platform tooling / SDKs"
+  description: "wx-mp-route"
+  url: "https://www.npmjs.com/package/@xsyx/easy-route"
+- name: "@xsyx/hanzo-switch"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-25"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "switch 切换组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-switch"
+- name: "@xsyx/hanzo-row"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-24"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "24栅格系统，行组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-row"
+- name: "@xsyx/hanzo-col"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-24"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "栅格系统,列组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-col"
+- name: "@xsyx/hanzo-tabs"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-24"
+  family: "hanzo — H5/mini-program UI component library"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-tabs"
+- name: "@xsyx/hanzo-popup"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: ">"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-popup"
+- name: "@xsyx/hanzo-overlay"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.1"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "弹出层"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-overlay"
+- name: "@xsyx/hanzo-transition"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "动画组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-transition"
+- name: "@xsyx/hanzo-panel"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "面板组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-panel"
+- name: "@xsyx/hanzo-loading"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "loading 组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-loading"
+- name: "@xsyx/hanzo-image"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "图片组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-image"
+- name: "@xsyx/hanzo-cell"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.0"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "单元格组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-cell"
+- name: "@xsyx/hanzo-alert"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.2"
+  published: "2019-07-22"
+  family: "hanzo — H5/mini-program UI component library"
+  description: "弹出组件"
+  url: "https://www.npmjs.com/package/@xsyx/hanzo-alert"
+- name: "@xsyx/storage"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.0.2"
+  published: "2019-07-05"
+  family: "platform tooling / SDKs"
+  description: "内存 + 本地 存储 h5 wx"
+  url: "https://www.npmjs.com/package/@xsyx/storage"
+- name: "@xsyx/icons-user"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.2"
+  published: "2019-02-13"
+  family: "platform tooling / SDKs"
+  description: "user icon"
+  url: "https://www.npmjs.com/package/@xsyx/icons-user"
+- name: "@xsyx/soft-router"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.10"
+  published: "2019-02-12"
+  family: "platform tooling / SDKs"
+  description: "舒服路由"
+  url: "https://www.npmjs.com/package/@xsyx/soft-router"
+- name: "@xsyx/mem-storage"
+  registry: npm
+  official: true
+  api_client: false
+  version: "0.1.6"
+  published: "2019-02-11"
+  family: "platform tooling / SDKs"
+  description: "- 支持wx.setStorage 合并"
+  url: "https://www.npmjs.com/package/@xsyx/mem-storage"
+- name: "@xsyx/nobatis"
+  registry: npm
+  official: true
+  api_client: false
+  version: "1.2.4"
+  published: "2019-01-26"
+  family: "platform tooling / SDKs"
+  description: "mybatis for node"
+  url: "https://www.npmjs.com/package/@xsyx/nobatis"
