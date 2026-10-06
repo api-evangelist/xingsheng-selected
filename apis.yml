@@ -20,7 +20,7 @@ x-tier-reason: harvest
 image: https://front-xps-cdn.xsyx.xyz/custom/xsyx_protal/icon.png
 specificationVersion: '0.20'
 created: '2026-09-04'
-modified: '2026-09-04'
+modified: '2026-10-06'
 tags:
 - Company
 - E-Commerce
@@ -37,6 +37,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://xsyxsc.com/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/xingsheng-selected-domain-security.yml
 - type: Packages
