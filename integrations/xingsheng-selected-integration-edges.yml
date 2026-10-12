@@ -1,0 +1,16 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/xingsheng-selected/integrations
+- https://n8n.io/integrations/xingsheng-selected/
+- https://composio.dev/toolkits/xingsheng-selected
+- https://monid.ai/tools/xingsheng-selected
+checked:
+- https://composio.dev/toolkits/xingsheng-selected
+- https://monid.ai/tools/xingsheng-selected
+- https://n8n.io/integrations/xingsheng-selected/
+- https://zapier.com/apps/xingsheng-selected/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
